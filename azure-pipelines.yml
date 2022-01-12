@@ -2,8 +2,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'vs2017-win2016'
+pool: Local
 
 steps:
 - task: katalonTask@1
